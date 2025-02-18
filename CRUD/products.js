@@ -4,7 +4,7 @@ const app = express();
 const port = 5000;
 
 // Middleware to parse JSON requests
-app.use(bodyParser.json());
+app.use(express.json());
 
 
 // Sample product data
